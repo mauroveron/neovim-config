@@ -4,4 +4,7 @@ require("user.plugins")
 require("user.colors")
 require("user.telescope")
 require("user.nvim-tree")
+require("user.cmp")
 require("user.treesitter")
+require("user.lsp")
+

@@ -39,3 +39,7 @@ keymap("n", "<C-p>", ":Telescope find_files<cr>", opts)
 
 keymap("n", "<leader>f", ":NvimTreeToggle<cr>", opts)
 
+-- formatting with null-ls
+keymap("n", "<leader>lf", ":lua vim.lsp.buf.formatting_sync(nil, 10000)<cr>")
+keymap("n", "<leader>lF", ":lua vim.lsp.buf.range_formatting()<cr>")
+
