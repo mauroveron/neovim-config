@@ -7,4 +7,5 @@ require("user.nvim-tree")
 require("user.cmp")
 require("user.treesitter")
 require("user.lsp")
+require("user.gitsigns")
 

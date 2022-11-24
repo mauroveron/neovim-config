@@ -3,7 +3,7 @@ vim.opt.mouse = "a"                             -- enable mouse
 vim.opt.clipboard = "unnamedplus"               -- use OS's clipboard
 vim.opt.fileencoding = "utf-8"                  -- use utf-8 by default
 vim.opt.splitright = true                       -- use utf-8 by default
-vim.opt.splitbelow = true                       -- use utf-8 by default
+vim.opt.diffopt:append("vertical")
 vim.opt.termguicolors = true                    -- use utf-8 by default
 vim.opt.swapfile = false                        -- use utf-8 by default
 vim.opt.expandtab = true                        -- expand tabs to spaces

@@ -43,3 +43,6 @@ keymap("n", "<leader>f", ":NvimTreeToggle<cr>", opts)
 keymap("n", "<leader>lf", ":lua vim.lsp.buf.formatting_sync(nil, 10000)<cr>")
 keymap("n", "<leader>lF", ":lua vim.lsp.buf.range_formatting()<cr>")
 
+-- git
+keymap("n", "<leader>g", ":Git<cr>")
+
