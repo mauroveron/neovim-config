@@ -1,0 +1,7 @@
+require("user.options")
+require("user.keymaps")
+require("user.plugins")
+require("user.colors")
+require("user.telescope")
+require("user.nvim-tree")
+require("user.treesitter")
