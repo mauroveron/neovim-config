@@ -15,6 +15,10 @@ vim.opt.gdefault = true                         -- global search and replace by 
 vim.opt.list = true                             -- show hidden characters
 vim.opt.listchars = { tab ='› ', trail = '•', extends = '#', nbsp = '.' }
 
-vim.opt.cursorcolumn = true
+vim.opt.cursorcolumn = false
 vim.opt.cursorline = true
+
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
 

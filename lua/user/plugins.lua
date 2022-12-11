@@ -46,6 +46,8 @@ return require('packer').startup(function(use)
   use 'editorconfig/editorconfig-vim'
   use 'folke/tokyonight.nvim'
 
+  use { "windwp/nvim-autopairs", commit = "4fc96c8f3df89b6d23e5092d31c866c53a346347" }
+
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -75,6 +77,7 @@ return require('packer').startup(function(use)
   -- fugitive
   use { "tpope/vim-fugitive" }
   use { "lewis6991/gitsigns.nvim", commit = "f98c85e7c3d65a51f45863a34feb4849c82f240f" }
+  use {'hashivim/vim-terraform'} 
 
   if PACKER_BOOTSTRAP then
     require('packer').sync()
