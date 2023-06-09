@@ -14,6 +14,7 @@ vim.opt.conceallevel = 0                        -- make `` show in markdown
 vim.opt.gdefault = true                         -- global search and replace by default
 vim.opt.list = true                             -- show hidden characters
 vim.opt.listchars = { tab ='› ', trail = '•', extends = '#', nbsp = '.' }
+vim.opt.ignorecase = true                       -- case insensitive search
 
 vim.opt.cursorcolumn = false
 vim.opt.cursorline = true
@@ -21,4 +22,3 @@ vim.opt.cursorline = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-

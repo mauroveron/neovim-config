@@ -10,4 +10,6 @@ require("user.lsp")
 require("user.gitsigns")
 require("user.autocommands")
 require("user.autopairs")
+require("user.copilot")
+
 
